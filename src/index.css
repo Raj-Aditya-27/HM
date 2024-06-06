@@ -143,3 +143,41 @@
   font-size: 16px;
   color: white;
 }
+
+/* Services */
+.services{
+  display: flex;
+  background-color: white;
+  width: 1118px;
+  height: 356px;
+  margin: auto;
+  position: relative;
+  bottom: 40px;
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 2% 5%;
+  column-gap: 2%;
+}
+
+.services>div{
+  width: 257px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services img{
+  height: 80px;
+  width: 80px;
+}
+
+.services h3{
+  color: hsl(186, 72%, 24%);
+}
+
+.services p{
+  font-weight: 100;
+  color: gray;
+}
